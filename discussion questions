@@ -1,0 +1,66 @@
+RUNTIME
+
+When calculating the Big O notation for a particular algorithm, it’s necessary to consider the length of time it takes for the algorithm to run as the algorithm’s workload approaches infinity. You can think of the workload as the number of tasks required to complete a job. What determines the workload of figuring out whether your box of animal crackers contains an elephant?
+
+The worst case scenario in this situation would be that the box does not contain an elephant and we realize this after we have gone through each cookie. The workload depends on how many cookies are in the box. It would take twice as long to see if there is an elephant in the mix if there are 200 cookies versus 100. This would be considered O(n) notation.
+
+
+Order the following runtimes in descending order of efficiency (that is, fastest runtimes first, slowest last) as n approaches infinity:
+
+O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n2)
+O(2n) (i.e. 2 to the n-th power)
+
+Stacks and Queues
+
+In the following cases, would a stack or queue be a more appropriate data structure?
+
+    The process of loading and unloading pallets onto a flatbed truck
+    Stack
+
+    Putting bottle caps on bottles of beer as they roll down an assembly line
+    Queue
+
+    Calculating the solution to this mathematical expression: 2 + (7 * 4) - (3 / 2)
+    Stack
+
+Describe two more situations where a queue would be an appropriate data structure.
+1 - Waiting in line to get into a concert
+2 - To-Do List
+
+Describe two more situations where a stack would be an appropriate data structure.
+1 - Eating hot rotis that your mom makes where she puts the last one made on top (No one would dare take from the middle or the oldest!)
+2 - Tower of Hanoi - the game (http://www.iros2012.org/site/sites/default/files/imgs/iros2012_TowerOfHanoiProblem.png)
+
+
+Linked Lists
+
+Given the linked list below, which are the nodes? 
+
+"Apple", "Berry" and "Cherry" are nodes along with the next that is attached to each. 
+
+What is the data for each node? 
+
+The data is in each node is the fruit - "Apple", "Berry" and "Cherry"
+
+Where is the head? 
+
+The two boxes that contain LLIST and head are the head. They are pointing to the apple/next node.
+
+Where is the tail? 
+
+"Cherry" and next are the tail. It is pointing to none and "Berry" and next are pointing to the tail.
+
+(Please be as specific as possible — exactly which parts of the diagram correspond to each part? Arrows? Boxes? Text?)
+
+
+What’s the difference between doubly- and singly-linked lists?
+
+In doubly linked lists each item points to the previous item where singly linked lists only point to the next item.
+
+Why is it faster to append to a linked list if we keep track of the tail as an attribute?
+
+We don't need traverse a list every time we need to add a node. Meaning if you know what the end is, you can append in O(1) time instead of O(n) time.
